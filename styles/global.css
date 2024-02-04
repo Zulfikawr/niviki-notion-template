@@ -28,8 +28,8 @@ body {
 }
 
 .static-tweet-emoji {
-  height: 1.2em !important;
-  width: 1.2em !important;
+  height: .2em !important;
+  width: .2em !important;
 }
 
 .searchInput {
@@ -99,7 +99,7 @@ body {
   height: 35vh;
 }
 
-footer .ft-p-1 {
+footer .ft-p- {
   width: 50%;
 }
 
@@ -153,7 +153,7 @@ footer .toogle-theme {
     margin: auto
   }
 
-  footer .ft-p-1 {
+  footer .ft-p- {
     width: 70%;
   }
 
@@ -208,7 +208,7 @@ footer .toogle-theme {
   }
 
   .notion-gallery-grid .notion-page-title-text {
-    font-size: 1.8em !important;
+    font-size: .8em !important;
   }
 
   [class *= "PageSocial_pageSocial"] {
@@ -271,7 +271,7 @@ footer .toogle-theme {
     font-size: 13px;
   }
 
-  .notion-aside-table-of-contents .notion-table-of-contents-item-indent-level-1 {
+  .notion-aside-table-of-contents .notion-table-of-contents-item-indent-level- {
     font-size: 12px;
   }
 
@@ -297,4 +297,19 @@ footer .toogle-theme {
     width: calc(((100vw - var(--notion-max-width)) / 2));
     max-width: calc(((100vw - var(--notion-max-width)) / 2));
   }
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff8f;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  background-color: dimgray;
+}
+
+*::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: dimgray;
 }
