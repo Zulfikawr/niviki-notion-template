@@ -3,6 +3,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true'
 })
 
+const nextConfig = {
+    distDir: "build", //this line will tell the build to create a file with this name
+  };
+  
+  module.exports = nextConfig;
+
 module.exports = withBundleAnalyzer({
     staticPageGenerationTimeout: 300,
     images: {
